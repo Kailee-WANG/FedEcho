@@ -3,7 +3,6 @@
 <p align="center">
   <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3.10+-brightgreen.svg?style=flat-square"></a>
   <a href="#"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-%3E=2.2-orange?style=flat-square"></a>
-  <a href="#"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square"></a>
   <a href="#"><img alt="Conference" src="https://img.shields.io/badge/MICCAI-2026-purple?style=flat-square"></a>
 </p>
 
@@ -168,6 +167,3 @@ This project builds upon the following open-source works:
 
 We thank the authors for releasing their code. Please also consider citing their works.
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
