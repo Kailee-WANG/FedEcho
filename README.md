@@ -79,13 +79,12 @@ Fine-tune the MViT-v2-S video encoder with EF regression on EchoNet-Dynamic:
 python FedLoRA_vision.py \
     --video_root /path/to/EchoNet-Dynamic/Videos \
     --filelist_csv /path/to/EchoNet-Dynamic/FileList.csv \
-    --num_clients 4 \
-    --videos_per_client 500 \
-    --global_rounds 10 \
-    --local_epochs 1 \
-    --batch_size 2 \
-    --lr 1e-4 \
-    --lora_r 8 \
+    --num_clients numberofclients \
+    --global_rounds globalrounds \
+    --local_epochs localepochs \
+    --batch_size batchsize \
+    --lr learningrate \
+    --lora_r r \
     --candidate_pool_sizes "1000,800,1200,600"
 ```
 
@@ -115,7 +114,7 @@ python candidate_extract.py \
     --data_dir /path/to/echonotes \
     --text_encoder_ckpt model_data/weights/echo_prime_text_encoder.pt \
     --lora_dir federated_checkpoints/fedtextlora_YYYYMMDD_HHMMSS \
-    --batch_size 32
+    --batch_size batchsize
 ```
 
 ## Inference
