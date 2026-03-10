@@ -19,7 +19,7 @@
 
 
 <p align="center">
-  <img src="./imgs/FedEcho_framework.png" width="85%">
+  <img src="./imgs/FedEcho_framework.png" width="65%">
 </p>
 
 ## Key Features
